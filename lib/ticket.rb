@@ -8,11 +8,11 @@ end
 
 def ticket_price(age)
   if age < 18
-    puts "The price is 10 kr"
+    return 10
   elsif age < 65
-    puts "The price is 20 kr"
+    return 20
   else age > 65
-  puts "The price is 15 kr"
+  return 15
   ticket = gets.to_i
   return ticket
   end
